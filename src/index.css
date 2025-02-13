@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #4CAF4F;
+  --color-secondary: #263238;
+  --color-info: #2194F3;
+
+  --color-black: #263238;
+  --color-dark-gray: #4D4D4D;
+  --color-gray: #717171;
+  --color-light-gray: #89939E;
+  --color-gray-blue: #ABBED1;
+  --color-silver: #F5F7FA;
+  --color-white: #ffffff;
+
+  --color-shade-1: #43A046;
+  --color-shade-2: #388E3B;
+  --color-shade-3: #237D31;
+  --color-shade-4: #1B5E1F;
+  --color-shade-5: #103E13;
+
+  --color-tint-1: #66BB69;
+  --color-tint-2: #81C784;
+  --color-tint-3: #A5D6A7;
+  --color-tint-4: #C8E6C9;
+  --color-tint-5: #E8F5E9;
+
+  --color-warning: #FBC02D;
+  --color-error: #E53835;
+  --color-success: #2E7D31;
+
+
+  /* font size */
+  --text-heading1: 64px;
+  --spacing-heading1: 76px;
+  --text-heading2: 36px;
+  --spacing-heading2: 44px;
+  --text-heading3: 28px;
+  --spacing-heading3: 36px;
+  --text-heading4: 20px;
+  --spacing-heading4: 28px;
+}
+
+.container {
+  padding-inline: 10px;
+}
