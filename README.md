@@ -1,50 +1,53 @@
-# React + TypeScript + Vite
+# React Landing Page Tutorial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple landing page built with React, TypeScript, and Tailwind CSS as part of a **Persian video tutorial series** I recorded and published on YouTube.
 
-Currently, two official plugins are available:
+This repository contains the source code used throughout the tutorials, allowing viewers to explore the implementation, follow along, and experiment with the project themselves.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Video Tutorial
 
-## Expanding the ESLint configuration
+**Language:** Persian (Farsi)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Watch the Tutorial Series on YouTube](https://www.youtube.com/playlist?list=PLOzuMpxiKWTsI1ftiNf5AKTCcKTXwsKVT)
 
-- Configure the top-level `parserOptions` property like this:
+## About the Project
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+I created this project to share practical frontend development knowledge through a hands-on example.
+
+The tutorial walks through building a landing page using modern frontend tools, with an emphasis on translating a UI design into working React components.
+
+## Tech Stack
+
+- **React** — Building the user interface
+- **TypeScript** — Type-safe development
+- **Tailwind CSS** — Utility-first styling
+- **Vite** — Development server and build tooling
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/nafasebra/landingpage-react-tutorial.git
+cd landingpage-react-tutorial
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Install dependencies:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+yarn install
 ```
+
+Start the development server:
+
+```bash
+yarn dev
+```
+
+## Project Status
+
+**Archived — Educational Reference**
+
+This project was created for an older video tutorial series and is no longer actively maintained.
+
+The source code remains available as an educational resource and a record of my earlier content creation and frontend development work.
