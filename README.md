@@ -1,4 +1,4 @@
-# React Landing Page Tutorial
+# React Landing Page Tutorial [Persian]
 
 A simple landing page built with React, TypeScript, and Tailwind CSS as part of a **Persian video tutorial series** I recorded and published on YouTube.
 
